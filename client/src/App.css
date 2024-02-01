@@ -1,0 +1,87 @@
+#root {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.App {
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+    flex-grow: 1;
+}
+
+.chats {
+    max-height: 88vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+* {
+    scrollbar-color: #ccc transparent;
+    scrollbar-width: thin;
+}
+
+.room {
+    width: 100%;
+    display: flex;
+}
+
+.messageBox {
+    display: flex;
+}
+
+
+#room-id,
+#msg-input {
+    width: 80%;
+    height: 2.5em;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+    padding: 10px;
+}
+
+#room-btn,
+#msg-btn {
+    width: 20%;
+    height: 3.1em;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 0 10px 10px 0;
+    transition: all 0.3s ease-in;
+    font-size: 0.8rem;
+}
+
+#msg-btn:hover, #room-btn:hover {
+    background-color: blue;
+    color: white;
+}
+
+#leave-btn {
+    font-size: 0.8rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 3em;
+    width: 10%;
+    background-color: #e93b3b;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px 10px 10px 10px;
+}

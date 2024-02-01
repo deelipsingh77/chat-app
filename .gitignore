@@ -1,0 +1,7 @@
+client/node_modules
+client/dist
+client/dist-ssr
+client/temp
+
+server/node_modules
+server/temp

@@ -1,0 +1,22 @@
+.msg {
+    font-size: 1rem;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    border: none;
+    box-shadow: 2px 2px 2px gray;
+    height: 2.5em;
+}
+
+.msg-green {
+    background-color: rgb(211, 211, 211);
+    align-self: flex-end;
+    color: black;
+}
+
+.msg-red {
+    background-color: rgb(103, 63, 206);
+    align-self: flex-start;
+    color: white;
+}
